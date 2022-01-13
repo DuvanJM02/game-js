@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
 var inicio = {
     iniciarJuego: function () {  
         console.log('funciona');
+        dimensiones.iniciar();
         buclePrincipal.iterar();
     }
 };
